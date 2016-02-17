@@ -13,11 +13,11 @@ import joptsimple.OptionSet;
 
 public class TwitterHashtagStorm {
     public static void main(String[] args) throws Exception{
-        String consumerKey = "XZ7tdGXZwryywGN2uLgkFT08T";
-        String consumerSecret = "EqJr2IQC9zAXlsKGGsIN47LeVagHfupiAeA98rcD7vodZHZbr5";
+        String consumerKey = "---";
+        String consumerSecret = "--";
 
-        String accessToken = "55706879-AWgf4C3sUBsxKJxWZj1de8fAwtNO5ZU64IN44gQcw";
-        String accessTokenSecret = "9uejCNcIdVhb5NzhTV4WKkd2KU4zhM57X50gTT0m4sACf";
+        String accessToken = "--";
+        String accessTokenSecret = "--";
 
         OptionParser parser = new OptionParser();
         parser.accepts("tag1").withRequiredArg().ofType(String.class);
